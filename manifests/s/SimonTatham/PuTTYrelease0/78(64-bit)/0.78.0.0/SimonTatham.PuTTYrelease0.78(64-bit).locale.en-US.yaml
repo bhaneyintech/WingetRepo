@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: SimonTatham.PuTTYrelease0.78(64-bit)
+PackageVersion: 0.78.0.0
+PackageLocale: en-US
+Publisher: Simon Tatham
+PackageName: PuTTY release 0.78 (64-bit)
+License: MIT License
+ShortDescription: Putty
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
