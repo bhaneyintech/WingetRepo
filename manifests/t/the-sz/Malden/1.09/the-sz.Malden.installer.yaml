@@ -1,0 +1,16 @@
+﻿# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: the-sz.Malden
+PackageVersion: 1.09
+InstallerType: zip
+Installers:
+- Architecture: x86
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: ./Malden.exe
+    PortableCommandAlias: Malden.exe
+  InstallerUrl: https://the-sz.com/products/malden/Malden.zip
+  InstallerSha256: 078d85f40b11c79ffd41bb608713f5ebabdca6f9a0fc10ce95ee8c29ff0fb031
+ManifestType: installer
+ManifestVersion: 1.4.0

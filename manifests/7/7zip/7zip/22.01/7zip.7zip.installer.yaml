@@ -1,0 +1,98 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: 7zip.7zip
+PackageVersion: 22.01
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Commands:
+- 7z
+FileExtensions:
+- 7z
+- ar
+- arj
+- bzip2
+- cab
+- chm
+- cpio
+- cramfs
+- dmg
+- ext
+- fat
+- gpt
+- gzip
+- hfs
+- ihex
+- iso
+- lzh
+- lzma
+- mbr
+- msi
+- nsis
+- ntfs
+- qcow2
+- rar
+- rpm
+- squashfs
+- tar
+- udf
+- uefi
+- vdi
+- vhd
+- vmdk
+- wim
+- xar
+- xz
+- z
+- zip
+Installers:
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://7-zip.org/a/7z2300-x64.exe
+  InstallerSha256: 23AB1F43A0ED6A022B441995A8DCF9B9CD08046F73FB66042BDB7EABAF87B7B2
+  AppsAndFeaturesEntries:
+  - DisplayName: 7-Zip 22.01 (x64)
+  ElevationRequirement: elevatesSelf
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://7-zip.org/a/7z2300.exe
+  InstallerSha256: C95EF64C1784FA2B7CEB0E81C33D32EC45A490EC6E075CD950595E892F8771C3
+  AppsAndFeaturesEntries:
+  - DisplayName: 7-Zip 22.01
+  ElevationRequirement: elevatesSelf
+- Architecture: arm64
+  InstallerType: exe
+  InstallerUrl: https://7-zip.org/a/7z2300-arm64.exe
+  InstallerSha256: 5A498B6F3804E8CD04F3442EFE614A9A5614D384E4EE6CA9F02924AD4223B5FA
+- InstallerLocale: en-US
+  Architecture: x86
+  InstallerType: wix
+  InstallerUrl: https://7-zip.org/a/7z2300.msi
+  InstallerSha256: 98D68C5A30F06B2181A876D5A5800B35976F604F2D6F6F1FCAF243011D987163
+  ProductCode: '{23170F69-40C1-2701-2300-000001000000}'
+  AppsAndFeaturesEntries:
+  - DisplayName: 7-Zip 22.01
+    Publisher: Igor Pavlov
+    DisplayVersion: 22.01.00.0
+  ElevationRequirement: elevatesSelf
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: wix
+  InstallerUrl: https://7-zip.org/a/7z2300-x64.msi
+  InstallerSha256: 4DC4F14FFEF0691108DD93BD032248AC47DC5CC7F444699D6BB8721C1A77CD0B
+  ProductCode: '{23170F69-40C1-2702-2300-000001000000}'
+  AppsAndFeaturesEntries:
+  - DisplayName: 7-Zip 22.01 (x64 edition)
+    Publisher: Igor Pavlov
+    DisplayVersion: 22.01.00.0
+  ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.4.0
+ReleaseDate: 2022-07-15

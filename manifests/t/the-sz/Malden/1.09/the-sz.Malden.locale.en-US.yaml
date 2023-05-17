@@ -1,0 +1,20 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: the-sz.Malden
+PackageVersion: 1.09
+PackageLocale: en-US
+Publisher: the sz development
+PublisherUrl: https://the-sz.com/
+PrivacyUrl: https://the-sz.com/products/privacy.php
+Author: the sz development
+PackageName: Malden
+PackageUrl: https://the-sz.com/products/malden/
+License: Copyright (c) the-sz.com
+LicenseUrl: https://the-sz.com/products/license.php
+Copyright: Copyright (c) the-sz.com
+ShortDescription: See online status of other Skype users directly in your taskbar.
+Moniker: malden
+ReleaseNotesUrl: https://the-sz.com/common/history.php?product=malden
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0

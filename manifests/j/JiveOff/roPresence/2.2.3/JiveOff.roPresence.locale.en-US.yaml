@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.0.0.schema.json
+# Created using wingetcreate
+
+PackageIdentifier: JiveOff.roPresence
+PackageVersion: 2.2.3
+PackageLocale: en-US
+Publisher: JiveOff
+PackageName: ropresence
+License: MIT
+ShortDescription: A Discord Rich Presence using the ROBLOX Presence API.
+ManifestType: defaultLocale
+ManifestVersion: 1.0.0
